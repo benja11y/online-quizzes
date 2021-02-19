@@ -1,273 +1,949 @@
 [
   {
     "id": 1,
-    "title": "Mobile Accessibility",
-    "overview": "Test yourself with this self-assessment!",
+    "title": "Technology",
+    "overview": "Think you are tech-savvy? How about taking a quiz about general technology stuff?",
     "questions": [
       {
         "question_id": 1,
-        "title": "What is the screen reader on android called?",
+        "title": "In which decade was the American Institute of Electrical Engineers (AIEE) founded?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "1850s"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "1880s"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "1930s"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "1950s"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "B"
+      },
+      {
         "question_id": 2,
-        "title": "What is the screen reader on android called?",
+        "title": "What is part of a database that holds only one type of information?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Report"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Field"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Record"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "File"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "B"
+      },
+      {
         "question_id": 3,
-        "title": "What is the screen reader on android called?",
+        "title": "'OS' computer abbreviation usually means ?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Order of Significance"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Open Software"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Operating System"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "Optical Sensor"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "C"
+      },
+      {
         "question_id": 4,
-        "title": "What is the screen reader on android called?",
+        "title": "In which decade with the first transatlantic radio broadcast occur?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "1850s"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "1860s"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "1870s"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "1900s"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "D"
+      },
+      {
         "question_id": 5,
-        "title": "What is the screen reader on android called?",
+        "title": "'.MOV' extension refers usually to what kind of file?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Image file"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Animation/movie file"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Audio file"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "MS Office document"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "B"
+      },
+      {
         "question_id": 6,
-        "title": "What is the screen reader on android called?",
+        "title": "In which decade was the SPICE simulator introduced?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "1950s"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "1960s"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "1970s"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "1980s"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "C"
+      },
+      {
         "question_id": 7,
-        "title": "What is the screen reader on android called?",
+        "title": "Most modern TV's draw power even if turned off. The circuit the power is used in does what function?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Sound"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Remote control"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Color balance"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "High voltage"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "B"
+      },
+      {
         "question_id": 8,
-        "title": "What is the screen reader on android called?",
+        "title": "Which is a type of Electrically-Erasable Programmable Read-Only Memory?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Flash"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Flange"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Fury"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "FRAM"
           }
         ],
         "answer": "A"
-      }, {
+      },
+      {
         "question_id": 9,
-        "title": "What is the screen reader on android called?",
+        "title": "The purpose of choke in tube light is ?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "To decrease the current"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "To increase the current"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "To decrease the voltage momentarily"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "To increase the voltage momentarily"
           }
         ],
-        "answer": "A"
-      }, {
+        "answer": "D"
+      },
+      {
         "question_id": 10,
-        "title": "What is the screen reader on android called?",
+        "title": "'.MPG' extension refers usually to what kind of file?",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "WordPerfect Document file"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "MS Office document"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Animation/movie file"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "Image file"
           }
         ],
-        "answer": "A"
-      }, {
-        "question_id": 11,
-        "title": "What is the screen reader on android called?",
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Indian History",
+    "overview": "Indian history goes back as far as more than 70,000 years ago. Interested in testing yourself while learning new information as well?",
+    "questions": [
+      {
+        "question_id": 1,
+        "title": "The Battle of Plassey was fought in",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "1757"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "1782"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "1748"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "1764"
           }
         ],
         "answer": "A"
-      }, {
-        "question_id": 12,
-        "title": "What is the screen reader on android called?",
+      },
+      {
+        "question_id": 2,
+        "title": "The territory of Porus who offered strong resistance to Alexander was situated between the rivers of",
         "choices": [
           {
             "choice_id": "A",
-            "value": "TalkBack"
+            "value": "Sutlej and Beas"
           },
           {
             "choice_id": "B",
-            "value": "Talk2U"
+            "value": "Jhelum and Chenab"
           },
           {
             "choice_id": "C",
-            "value": "VoiceOver"
+            "value": "Ravi and Chenab"
           },
           {
             "choice_id": "D",
-            "value": "JAWS"
+            "value": "Ganga and Yamuna"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 3,
+        "title": "Under Akbar, the Mir Bakshi was required to look after",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "military affairs"
+          },
+          {
+            "choice_id": "B",
+            "value": "the state treasury"
+          },
+          {
+            "choice_id": "C",
+            "value": "the royal household"
+          },
+          {
+            "choice_id": "D",
+            "value": "the land revenue system"
           }
         ],
         "answer": "A"
+      },
+      {
+        "question_id": 4,
+        "title": "Tripitakas are sacred books of",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Buddhists"
+          },
+          {
+            "choice_id": "B",
+            "value": "Hindus"
+          },
+          {
+            "choice_id": "C",
+            "value": "Jains"
+          },
+          {
+            "choice_id": "D",
+            "value": "None of the above"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 5,
+        "title": "The trident-shaped symbol of Buddhism does not represent",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Nirvana"
+          },
+          {
+            "choice_id": "B",
+            "value": "Sangha"
+          },
+          {
+            "choice_id": "C",
+            "value": "Buddha"
+          },
+          {
+            "choice_id": "D",
+            "value": "Dhamma"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 6,
+        "title": "The theory of economic drain of India during British imperialism was propounded by",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Jawaharlal Nehru"
+          },
+          {
+            "choice_id": "B",
+            "value": "Dadabhai Naoroji"
+          },
+          {
+            "choice_id": "C",
+            "value": "R.C. Dutt"
+          },
+          {
+            "choice_id": "D",
+            "value": "M.K. Gandhi"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 7,
+        "title": "The treaty of Srirangapatna was signed between Tipu Sultan and",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Robert Clive"
+          },
+          {
+            "choice_id": "B",
+            "value": "Cornwallis"
+          },
+          {
+            "choice_id": "C",
+            "value": "Dalhousie"
+          },
+          {
+            "choice_id": "D",
+            "value": "Warren Hastings"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 8,
+        "title": "The system of competitive examination for civil service was accepted in principle in the year",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "1833"
+          },
+          {
+            "choice_id": "B",
+            "value": "1853"
+          },
+          {
+            "choice_id": "C",
+            "value": "1858"
+          },
+          {
+            "choice_id": "D",
+            "value": "1882"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 9,
+        "title": "Through which one of the following, the king exercised his control over villages in the Vijayanagar Empire?",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Dannayaka"
+          },
+          {
+            "choice_id": "B",
+            "value": "Sumanta"
+          },
+          {
+            "choice_id": "C",
+            "value": "Nayaka"
+          },
+          {
+            "choice_id": "D",
+            "value": "Mahanayakacharya"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 10,
+        "title": "The Vijayanagara ruler, Kirshnadev Raya's work Amuktamalyada, was in",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Telugu"
+          },
+          {
+            "choice_id": "B",
+            "value": "Sanskrit"
+          },
+          {
+            "choice_id": "C",
+            "value": "Tamil"
+          },
+          {
+            "choice_id": "D",
+            "value": "Kannada"
+          }
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Days and Years",
+    "overview": "Here you can learn about various anniversities and their dates. Go ahead and see if you already know some!",
+    "questions": [
+      {
+        "question_id": 1,
+        "title": "The first death anniversary day of Sri Rajiv Gandhi was observed as the",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "National Integration Day"
+          },
+          {
+            "choice_id": "B",
+            "value": "Peace and Love Day"
+          },
+          {
+            "choice_id": "C",
+            "value": "Secularism Day"
+          },
+          {
+            "choice_id": "D",
+            "value": "Anti-Terrorism Day"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 2,
+        "title": "20th August is celebrated as",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Earth Day"
+          },
+          {
+            "choice_id": "B",
+            "value": "Sadbhavana Divas"
+          },
+          {
+            "choice_id": "C",
+            "value": "No Tobacco Day"
+          },
+          {
+            "choice_id": "D",
+            "value": "None of these"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 3,
+        "title": "When is the World Population Day observed?",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "May 31"
+          },
+          {
+            "choice_id": "B",
+            "value": "October 4"
+          },
+          {
+            "choice_id": "C",
+            "value": "December 10"
+          },
+          {
+            "choice_id": "D",
+            "value": "July 11"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 4,
+        "title": "January 15 is celebrated as the",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Republic Day"
+          },
+          {
+            "choice_id": "B",
+            "value": "Ugadhi"
+          },
+          {
+            "choice_id": "C",
+            "value": "Teachers' Day"
+          },
+          {
+            "choice_id": "D",
+            "value": "Army Day"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 5,
+        "title": "The centenary of Mahatma Gandhi's arrival in South Africa was celebrated in",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "May 1993"
+          },
+          {
+            "choice_id": "B",
+            "value": "August 1993"
+          },
+          {
+            "choice_id": "C",
+            "value": "July 1993"
+          },
+          {
+            "choice_id": "D",
+            "value": "September 1993"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 6,
+        "title": "National Maritime Day of India falls on",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "April 5"
+          },
+          {
+            "choice_id": "B",
+            "value": "June 5"
+          },
+          {
+            "choice_id": "C",
+            "value": "October 5"
+          },
+          {
+            "choice_id": "D",
+            "value": "September 5"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 7,
+        "title": "Journalist Day was celebrated for the first time all over the country on",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Oct. 20, 1984"
+          },
+          {
+            "choice_id": "B",
+            "value": "Oct. 1, 1984"
+          },
+          {
+            "choice_id": "C",
+            "value": "Oct 28, 1984"
+          },
+          {
+            "choice_id": "D",
+            "value": "Oct. 8, 1984"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": 8,
+        "title": "'Teacher's Day' is observed on which of the date?",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "September 5"
+          },
+          {
+            "choice_id": "B",
+            "value": "January 30"
+          },
+          {
+            "choice_id": "C",
+            "value": "November 14"
+          },
+          {
+            "choice_id": "D",
+            "value": "October 2"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 9,
+        "title": "The World Environment Day is celebrated on",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "April 7"
+          },
+          {
+            "choice_id": "B",
+            "value": "June 5"
+          },
+          {
+            "choice_id": "C",
+            "value": "August 6"
+          },
+          {
+            "choice_id": "D",
+            "value": "June 16"
+          }
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": 10,
+        "title": "Which day is observed as World No Smoking Day ?",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "15th July"
+          },
+          {
+            "choice_id": "B",
+            "value": "31st December"
+          },
+          {
+            "choice_id": "C",
+            "value": "1st January"
+          },
+          {
+            "choice_id": "D",
+            "value": "31st May"
+          }
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chemistry",
+    "overview": "Have you always been fascinated by chemistry in school? If so, challenge your self and take this quiz!",
+    "questions": [
+      {
+        "question_id": 1,
+        "title": "The nucleus of an atom consists of",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "electrons and neutrons"
+          },
+          {
+            "choice_id": "B",
+            "value": "electrons and protons"
+          },
+          {
+            "choice_id": "C",
+            "value": "protons and neutrons"
+          },
+          {
+            "choice_id": "D",
+            "value": "All of the above"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": 2,
+        "title": "The number of moles of solute present in 1 kg of a solvent is called its",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "molality"
+          },
+          {
+            "choice_id": "B",
+            "value": "molarity"
+          },
+          {
+            "choice_id": "C",
+            "value": "normality"
+          },
+          {
+            "choice_id": "D",
+            "value": "formality"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 3,
+        "title": "The most electronegative element among the following is",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "sodium"
+          },
+          {
+            "choice_id": "B",
+            "value": "bromine"
+          },
+          {
+            "choice_id": "C",
+            "value": "fluorine"
+          },
+          {
+            "choice_id": "D",
+            "value": "oxygen"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": 4,
+        "title": "The metal used to recover copper from a solution of copper sulphate is",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Na"
+          },
+          {
+            "choice_id": "B",
+            "value": "Ag"
+          },
+          {
+            "choice_id": "C",
+            "value": "Hg"
+          },
+          {
+            "choice_id": "D",
+            "value": "Fe"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 5,
+        "title": "The number of d-electrons in Fe2+ (Z = 26) is not equal to that of",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "p-electrons in Ne(Z = 10)"
+          },
+          {
+            "choice_id": "B",
+            "value": "s-electrons in Mg(Z = 12)"
+          },
+          {
+            "choice_id": "C",
+            "value": "d-electrons in Fe(Z = 26)"
+          },
+          {
+            "choice_id": "D",
+            "value": "p-electrons in CI(Z = 17)"
+          }
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": 6,
+        "title": "The metallurgical process in which a metal is obtained in a fused state is called",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "smelting"
+          },
+          {
+            "choice_id": "B",
+            "value": "roasting"
+          },
+          {
+            "choice_id": "C",
+            "value": "calcinations"
+          },
+          {
+            "choice_id": "D",
+            "value": "froth floatation"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 7,
+        "title": "The molecules of which gas have highest speed?",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "H2 at -73oC"
+          },
+          {
+            "choice_id": "B",
+            "value": "CH4 at 300 K"
+          },
+          {
+            "choice_id": "C",
+            "value": "N2 at 1,027oC"
+          },
+          {
+            "choice_id": "D",
+            "value": "O2 at 0oC"
+          }
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": 8,
+        "title": "The oldest rocks in the earth's crust were once molten, and came from deep inside the earth. The molten rock, called magma, spewed out in volcanic eruptions during the earth;s early life and solidified into hard rock's called",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "granite"
+          },
+          {
+            "choice_id": "B",
+            "value": "basalt"
+          },
+          {
+            "choice_id": "C",
+            "value": "igneous rocks"
+          },
+          {
+            "choice_id": "D",
+            "value": "sedimentary rocks"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": 9,
+        "title": "The law which states that the amount of gas dissolved in a liquid is proportional to its partial pressure is",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "Dalton's law"
+          },
+          {
+            "choice_id": "B",
+            "value": "Gay Lussac's law"
+          },
+          {
+            "choice_id": "C",
+            "value": "Henry's law"
+          },
+          {
+            "choice_id": "D",
+            "value": "Raoult's law"
+          }
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": 10,
+        "title": "The gas present in the stratosphere which filters out some of the sun's ultraviolet light and provides an effective shield against radiation damage to living things is",
+        "choices": [
+          {
+            "choice_id": "A",
+            "value": "helium"
+          },
+          {
+            "choice_id": "B",
+            "value": "ozone"
+          },
+          {
+            "choice_id": "C",
+            "value": "oxygen"
+          },
+          {
+            "choice_id": "D",
+            "value": "methane"
+          }
+        ],
+        "answer": "B"
       }
     ]
   }
