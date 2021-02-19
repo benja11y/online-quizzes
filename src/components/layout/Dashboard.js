@@ -20,6 +20,13 @@ import {
 } from 'recharts';
 import { getItem } from '../../helpers/storage';
 import { strings } from '../../config/constants';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles(theme => ({
   instructions: {
@@ -95,7 +102,7 @@ const Dashboard = () => {
               maxNumberTrials = counter;
             }
 
-            item[`Trial ${counter}`] = result.value;
+            item[`Trial${counter}`] = result.value;
             counter++;
           }
         });
@@ -110,7 +117,7 @@ const Dashboard = () => {
         let color = i % 2 === 0 ? '#82ca9d' : '#8884d8';
 
         // Add to an array for rendering
-        bars.push(<Bar key={i} dataKey={`Trial ${i}`} fill={color} />);
+        bars.push(<Bar key={i} dataKey={`Trial${i}`} fill={color} />);
       }
 
       return [data, bars];
@@ -131,19 +138,121 @@ const Dashboard = () => {
     }
   };
 
+  const TableHeaderRow = ({ rowCount }) => {
+
+    return (
+      <TableHead>
+        <TableRow>
+
+        {TableHeaderRowNameCell()}
+        {TableHeaderRowTrialCells({rowCount})}
+        </TableRow>
+      </TableHead>
+    )
+  }
+
+  const TableHeaderRowNameCell = () => {
+    return (
+      <TableCell>Date</TableCell>
+    )
+  }
+
+  const TableHeaderRowTrialCells = ( {rowCount}) => {
+    var rows = [];
+
+    for (var i = 0; i < rowCount; i++) {
+      rows.push(
+      <TableCell>Trial {i+1}</TableCell>
+      )
+    }
+
+    return rows;
+  } 
+
+  const TableRows = ({ data, rowCount }) => {
+    return data.map((data) =>
+      <TableRow>
+        
+        {TableBodyRowNameCell({data})}
+        {TableBodyRowTrialCells({data, rowCount})}
+
+      </TableRow>
+    );
+  }
+
+  const TableBodyRowNameCell = ({data}) => {
+return (
+    <TableCell component="th" scope="row">{data.name}</TableCell>
+)
+  }
+
+  const TableBodyRowTrialCells = ( {data, rowCount}) => {
+    
+    console.log(data);
+    var rows = [];
+
+    for (var i = 0; i < rowCount; i++) {
+      rows.push(
+      <TableCell>{data["Trial" + (i+1)] ?? "N/A"}</TableCell>
+      )
+    }
+
+    return rows;
+  }
+
+  const TableFunction = ({ data }) => {
+    var rowCount = calcLongestRow({ data });
+    return (
+      <TableContainer component={Paper}>
+        <Table className={classes.table}>
+          <TableHeaderRow rowCount={rowCount} />
+          <caption>{selectedQuiz} results</caption>
+          <TableBody>
+            <TableRows data={data} rowCount={rowCount} />
+          </TableBody>
+        </Table>
+      </TableContainer>
+    );
+  }
+
+  const calcLongestRow = ({ data }) => {
+    var longest = 0;
+    data.map((data) => {
+      var size = 0,
+        key;
+      for (key in data) {
+        if (data.hasOwnProperty(key)) size++;
+      }
+
+      if (size > longest) {
+        longest = size;
+      }
+    }
+    )
+    return (longest - 1); //-1 to account for name
+  };
+
+
+
   const renderBarChart = () => {
     const [data, bars] = getQuizData();
 
     return (
-      <ResponsiveContainer width="100%" height={500}>
-        <BarChart data={data}>
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          {bars}
-        </BarChart>
-      </ResponsiveContainer>
+      <React.Fragment>
+      <div aria-hidden="true">
+        <ResponsiveContainer width="100%" height={500}>
+            
+          <BarChart data={data}>
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            {bars}
+          </BarChart>
+        </ResponsiveContainer>
+          </div>
+        <TableFunction data={data}></TableFunction>
+      </React.Fragment>
     );
   };
 
@@ -172,28 +281,8 @@ const Dashboard = () => {
 
         {selectedQuiz && (
           <>
-            <RadioGroup
-              aria-label="period"
-              name="period"
-              className={classes.periodsRadioGroup}
-              value={selectedPeriod}
-              onChange={e => setSelectedPeriod(e.target.value)}
-            >
-              <FormControlLabel value="all" control={<Radio />} label="All" />
-              <FormControlLabel
-                value="7"
-                control={<Radio />}
-                label="Last week"
-              />
-              <FormControlLabel
-                value="3"
-                control={<Radio />}
-                label="Last 3 days"
-              />
-            </RadioGroup>
-
             <div className={classes.chartContainer}>
-              <Typography variant="h5" align="center">
+              <Typography id="selectedQuiz" variant="h5" align="center">
                 {selectedQuiz}
               </Typography>
               {renderBarChart()}

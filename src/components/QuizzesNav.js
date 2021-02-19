@@ -45,6 +45,7 @@ const QuizzesNav = props => {
     const buttons = quizzes.map(quiz => {
       const isSelected = currentQuiz ? currentQuiz.id === quiz.id : false;
 
+
       return (
         <CustomButton
           key={quiz.id}
@@ -63,16 +64,9 @@ const QuizzesNav = props => {
     return buttons;
   };
 
+
   return (
     <Paper variant="outlined" square className={classes.paper}>
-      <Alert severity="info" className={classes.welcomeAlert}>
-        Hi there! <br />
-        Here you can challenge yourself with different quizzes in different
-        areas. Your results will be saved in your browser storage. You can see a
-        nice graphical representation of your results in your dashboard.
-        <br />
-        Go ahead and choose a quiz to get started!
-      </Alert>
       <Container fixed className={classes.container}>
         {renderButtons()}
       </Container>

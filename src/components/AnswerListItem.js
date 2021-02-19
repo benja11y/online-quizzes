@@ -1,4 +1,4 @@
-import { ListItem } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
 const AnswerListItem = withStyles(theme => ({
@@ -10,6 +10,6 @@ const AnswerListItem = withStyles(theme => ({
   selected: {
     backgroundColor: theme.palette.success.light,
   },
-}))(ListItem);
+}))(Button);
 
 export default AnswerListItem;

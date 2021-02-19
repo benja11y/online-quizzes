@@ -34,16 +34,7 @@ const Welcome = () => {
     <Card className={classes.root}>
       {/* <CardHeader title="Welcome to Online Quizzes System" /> */}
       <CardContent className={classes.cardContent}>
-        <Typography variant="h5">Welcome to Online Quizzes System</Typography>
-        <Typography variant="subtitle1" className={classes.subtitle}>
-          Hello there!
-          <br />
-          Here you can take different quizzes and get your result and share it
-          on many social media websites.
-          <br />
-          You can also create a new account to save your results as well as your
-          porgress.
-        </Typography>
+        <Typography variant="h5">Welcome to the test bed!</Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
         {/* <Fab color="primary" variant="extended">

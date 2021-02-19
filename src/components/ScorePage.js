@@ -25,7 +25,7 @@ const ScorePage = ({ title, score, retakeQuiz }) => {
       <CardHeader title={pageTitle} />
       <CardContent>
         <Typography variant="h6">
-          Your socre is {score.value} out of {score.from}
+          Your score is {score.value} out of {score.from}
         </Typography>
         <Button
           variant="contained"

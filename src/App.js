@@ -10,13 +10,13 @@ const App = () => {
   const theme = createMuiTheme({
     palette: {
       primary: {
-        main: '#5d99c6',
+        main: '#1b75bc',
       },
       secondary: {
         main: '#43a047',
       },
       background: {
-        default: '#fff',
+        default: '#f7f7f7',
       },
     },
   });

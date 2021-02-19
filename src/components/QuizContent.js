@@ -53,7 +53,7 @@ const QuizContent = props => {
   const [page, setPage] = useState(0);
   const [numberOfQuestions, setNumberOfQuestions] = useState(0);
   const [answers, setAnswers] = useState([]);
-  const [score, setScore] = useState({ value: 0, points: 10, from: 100 });
+  const [score, setScore] = useState({ value: 0, points: 1, from: 100 });
   const { currentQuiz } = props;
   const classes = useStyles();
 
@@ -270,15 +270,15 @@ const QuizContent = props => {
               Submit
             </Button>
           ) : (
-            <Button
-              color="primary"
-              variant="contained"
-              fullWidth
-              onClick={nextPage}
-            >
-              Next
-            </Button>
-          )}
+              <Button
+                color="primary"
+                variant="contained"
+                fullWidth
+                onClick={nextPage}
+              >
+                Next
+              </Button>
+            )}
         </CardActions>
       );
     }
@@ -290,9 +290,7 @@ const QuizContent = props => {
         <Card square raised className={classes.card}>
           <CardHeader title={currentQuiz.title} />
           <CardContent className={classes.cardContent}>
-            <List>
-              <Card square>{renderPage()}</Card>
-            </List>
+            {renderPage()}
           </CardContent>
           {renderNavigation()}
         </Card>

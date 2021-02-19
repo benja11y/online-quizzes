@@ -37,6 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
   appTitleHeading: {
     margin: 'auto',
+    fontSize: '2em',
   },
   drawerHeader: {
     display: 'flex',
@@ -83,43 +84,30 @@ const Header = ({ history }) => {
   const DrawerList = () => (
     <React.Fragment>
       <List className={classes.drawerList}>
-        <Divider />
-        <Link to="/" onClick={toggleDrawer}>
-          <ListItem button>
+        <ListItem>
+          <Link to="/" onClick={toggleDrawer}>
             <ListItemIcon>
               <Home />
             </ListItemIcon>
             <ListItemText primary="Home" />
-          </ListItem>
-        </Link>
-        <Link to="/dashboard" onClick={toggleDrawer}>
-          <ListItem button>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link to="/dashboard" onClick={toggleDrawer}>
             <ListItemIcon>
               <Dashboard />
             </ListItemIcon>
             <ListItemText primary="Dashboard" />
-          </ListItem>
-        </Link>
-        <ListItem button onClick={toggleDialog}>
+          </Link>
+        </ListItem>
+        <ListItem>
           <ListItemIcon>
             <Delete />
           </ListItemIcon>
-          <ListItemText primary="Reset Data" className={classes.resetData} />
+          <Button onClick={toggleDialog} className={classes.resetData} >Reset Data</Button>
         </ListItem>
         <Divider />
-        <a
-          href="https://www.indiabix.com/general-knowledge/questions-and-answers/"
-          target="blank"
-        >
-          <ListItem button>
-            <ListItemIcon>
-              <Launch />
-            </ListItemIcon>
-            <ListItemText primary="Quizzes Source" />
-          </ListItem>
-        </a>
       </List>
-      <Divider />
     </React.Fragment>
   );
 
@@ -127,11 +115,11 @@ const Header = ({ history }) => {
     <React.Fragment>
       <AppBar position="sticky" className={classes.root}>
         <Toolbar variant="dense" component="nav" disableGutters>
-          <Button color="inherit" onClick={toggleDrawer}>
+          <Button aria-label="hamburger menu" color="inherit" aria-expanded={drawerOpen} onClick={toggleDrawer}>
             <Menu />
           </Button>
-          <Typography variant="h6" className={classes.appTitleHeading}>
-            Online Quizzes System
+          <Typography variant="h1" className={classes.appTitleHeading}>
+            TPGi Knowledge check
           </Typography>
         </Toolbar>
 
